@@ -1,0 +1,2 @@
+initdb -U postgres -A postgres -E utf8 -W -D D:/My/Python/Work/PostgreSQL/data
+"D:/My/Python/Work/PostgreSQL/pgsql/bin/pg_ctl" -D "D:/My/Python/Work/PostgreSQL/data" -l "D:/My/Python/Work/PostgreSQL/log/pgsql.log" start
